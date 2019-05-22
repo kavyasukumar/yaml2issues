@@ -4,7 +4,7 @@ Yaml2Issues is an utility gem to uplaod issues and milestones to a github repo f
 
 ## Installation
 
-Run this line from teh command line:
+Run this line from the command line:
 
     $ gem specific_install https://github.com/kavyasukumar/yaml2issues.git
 
