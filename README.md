@@ -1,28 +1,16 @@
 # Yaml2issues
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/yaml2issues`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Yaml2Issues is an utility gem to uplaod issues and milestones to a github repo from a YAML file.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Run this line from teh command line:
 
-```ruby
-gem 'yaml2issues'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install yaml2issues
+    $ gem specific_install https://github.com/kavyasukumar/yaml2issues.git
 
 ## Usage
 
-This gem provides an executable `yaml2issues`.
+This gem adds an executable `yaml2issues`. To add issues, do the following:
 
 ```sh
 yaml2issues add_issues -a <github-account-name> -p <project-slug> -i <yaml file containing issues>
