@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'yaml2issues/cli'
+trap('SIGINT') { exit! }
+Yaml2Issues::Base.start

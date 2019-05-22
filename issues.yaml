@@ -1,0 +1,9 @@
+- milestone: MVP
+  due: 05/31/2019
+  desc: Very minimal. Very viable. Very product
+  issues:
+  - title: Title of issue 1
+    body: Optional body text
+    labels: label1, label2
+    assign_to: kavyasukumar
+  - title: Title of issue 2
